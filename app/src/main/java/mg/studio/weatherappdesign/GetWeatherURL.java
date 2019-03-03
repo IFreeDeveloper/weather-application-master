@@ -18,17 +18,6 @@ public class GetWeatherURL {
     private String Key = "978cb51f72654effaf8e4d542183412e";
     private String URLdaily = "https://free-api.heweather.net/s6/weather/forecast?";
 
-    public String getURLHour() {
-        return URLHour;
-    }
-
-    public void setURLHour(String URLHour) {
-        this.URLHour = URLHour;
-    }
-
-    private String URLHour = "https://free-api.heweather.net/s6/weather/hourly?parameters";
-
-
     public GetWeatherURL(String location, String lang, String unit) {
         Location = location;
         Lang = lang;
